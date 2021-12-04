@@ -12,7 +12,7 @@ A chat app for me and my girlfriend 🤪
 		- `uid` (string)
 - [Generate a self-signed SSL certificate](https://stackoverflow.com/a/10176685):
 ```
-openssl req -x509 -newkey rsa:4096 -keyout ./private/key.pem -out ./private/cert.pem -sha256 -days 365 -nodes -subj "/C=US/ST=Oregon/L=Portland/O=Company Name/OU=Org/CN=www.example.com"
+openssl req -x509 -newkey rsa:4096 -keyout ./private/key.pem -out ./public/cert.pem -sha256 -days 365 -nodes -subj "/C=US/ST=Oregon/L=Portland/O=Company Name/OU=Org/CN=www.example.com"
 ```
 - [Install Node.js and NPM](https://phoenixnap.com/kb/install-node-js-npm-on-windows) beforehand.
 - Install `http-server`
